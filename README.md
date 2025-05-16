@@ -1,24 +1,33 @@
-Warphunt
+# Warphunt
+
 A Next.js TypeScript project built with modern web development tools.
-Getting Started
 
-Clone the repository:git clone https://github.com/your-username/warphunt.git
+## Getting Started
 
+Clone the repository:
 
-Install dependencies:cd warphunt
+```bash
+git clone https://github.com/your-username/warphunt.git
+```
+
+Install dependencies:
+
+```bash
+cd warphunt
 npm install
+```
 
+Run the development server:
 
-Run the development server:npm run dev
-
+```bash
+npm run dev
+```
 Open http://localhost:3000 in your browser.
 
-Tech Stack
+## Tech Stack
 
-Next.js
-TypeScript
-Tailwind CSS
-ESLint
-Prettier
-
-
+* Next.js
+* TypeScript
+* Tailwind CSS
+* ESLint
+* Prettier
