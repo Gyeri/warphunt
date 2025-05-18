@@ -1,0 +1,9 @@
+export interface AppContextType {
+  isWalletConnected: boolean
+  connectWallet: () => Promise<boolean>
+  setCurrentLayer: (layer: string) => void
+  huntDifficulty: string
+  setHuntDifficulty: (difficulty: string) => void
+  userProfile: UserProfile
+  // ...other properties
+}

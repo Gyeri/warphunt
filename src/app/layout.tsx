@@ -1,3 +1,4 @@
+// filepath: /home/gyeri/warphunt/src/app/layout.tsx
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
@@ -20,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider defaultTheme="dark" storageKey="warphunt-theme">
+        <ThemeProvider>
           <AppProvider>{children}</AppProvider>
         </ThemeProvider>
       </body>
